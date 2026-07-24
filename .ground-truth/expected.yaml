@@ -1,0 +1,10 @@
+id: P23-E03
+repository: aci-gt-p23-branch-ruleset
+visibility: public
+stage: P2
+rule: P2.3
+kind: experiment
+atomic_variable: "active ruleset 阻止 Actions 直接更新 main"
+expected_status: BLOCKED
+setup: AUTO_REST
+configuration_state: COMPLETE
